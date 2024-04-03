@@ -168,7 +168,7 @@ html{
 }
 
 .all .row .rowheader{
-    /* display: inline-block; */
+    display: inline-block;
     width: 215px;
     float: left;
     color: #1d1d1f;
