@@ -168,8 +168,8 @@ html{
 }
 
 .all .row .rowheader{
-    display: inline-block;
-    width: 215px;
+    /* display: inline-block; */    
+    width: 20vw;
     float: left;
     color: #1d1d1f;
     font-family: Arial, Helvetica, sans-serif;
@@ -179,7 +179,7 @@ html{
 
 .all .row .rowdescreption{
     display: inline-block;
-    width: 735px;
+    width: 60vw;
     color: #6e6e73;
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
@@ -226,3 +226,8 @@ html{
 
 
 
+@media (max-width: 1024px) {
+    #main{
+        display: none;
+    }
+}
