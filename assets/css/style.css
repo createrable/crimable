@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+#header{
+    height: 52px;
+    background-color: #fbfbfdcc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav{
+    margin: 0 160px;
+    padding: 0 22px;
+}
+
+#nav li{
+    display: inline-block;
+}
+
+#nav #bold a{
+    font-size: 21px;
+    margin-right: 25vw;
+}
+
+#nav #around a{
+    cursor: pointer;
+    color: #fff;
+    border-color: rgba(0, 0, 0, 0);
+    padding: 3px 10px;
+    background: #0071e3;
+    border-style: solid;
+    border-radius: 980px;
+    margin-left: 2vw;
+    text-align: center;
+}
+
+#nav #full a{
+    margin-left: 2vw;
+}
+
+#nav li a{
+    color: #000;
+    text-decoration: none;
+    line-height: 52px;
+    font-size: 12px;
+}
+
+#nav #full:hover a {
+    color: #06c;
+}
+
+#animation{
+    margin-top: 52px;
+    padding: 50% 50% 10%;
+    background: url(https://www.apple.com/vn/iphone-15/images/overview/design/design_endframe__cb31n5bv6082_large.jpg) top center / contain no-repeat;
+    
+    
+}
+
+#animation #text-heading{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 50px;
+    top:  50vw;
+}
+
+
+
+/* .content .content-section{
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+} */
+
+.content .content-section-heading, .content-section-sub-heading{
+   width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.content .content-section{
+    margin-top: 4vw;
+}
+
+.content .content-section-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d1d1f;
+    font-size: 80px;
+    text-align: center;
+    margin: 0 10vw;
+    width: 80vw;
+}
+
+.content .content-section-sub-heading,
+.content1 .content-section-sub-heading1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6e6e73;
+    font-size: 21px;
+    margin: 40px 12vw 0px 12vw;
+    width: 76vw;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.content .img {
+    margin-top: 60px;
+}
+
+.content1{
+    background: #000;
+    /* padding: 10vw; */
+}
+
+.content1 .content-section-heading1 {
+    color: #F5F5F7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin: 0 10vw;
+    padding: 4vw;
+}
+
+.content1 .img1{
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+
+.all{
+    padding-top: 61px;
+    padding-bottom: 56px;
+    border-top: 1px solid #d2d2d7;
+    margin-top: 50px;
+    width: 80vw;
+    transform: translateX(10vw);
+}
+
+
+
+.all .row .rowheader::before{
+    content: "";
+    display: block;
+}
+
+.all .row .rowdescreption::after{
+    content: "";
+    display: block;
+}
+
+.all .row .rowheader{
+    /* display: inline-block; */
+    width: 215px;
+    float: left;
+    color: #1d1d1f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.all .row .rowdescreption{
+    display: inline-block;
+    width: 735px;
+    color: #6e6e73;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.all .item-list {
+    list-style: none;
+}
+
+
+#footer{
+    border-top: 1px solid #0000008F;
+    padding-top: 20px;
+    width: 80vw;
+    transform: translateX(10vw);
+}
+
+#footer .endfooter{
+    height: 47px;
+    
+    
+}
+
+#footer .paragrah1{
+    color: #0000008F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#footer .paragrah2{
+    display: inline-block;
+    font-size: 12px;
+    color: #000000B8;
+   
+}
+
+.paragrah2 + .paragrah2{
+    padding-left: 8px;
+    border-left: 1px solid ;
+    margin-top: 8px;
+    
+}
+
+
+
